@@ -145,9 +145,9 @@ class Tree {
 
         function doRight(node, cb){
             if(node){
-                doLeft(node.right, cb);
+                doRight(node.right, cb);
                 cb(node.value);
-                doLeft(node.left, cb)
+                doRight(node.left, cb)
             }
         }
     }
