@@ -136,4 +136,6 @@ function TaskD(n, ...args) {
   return args;
 }
 
-console.log(TaskD(8, -1, 0, 0, 1, 2, -1, -4, 0)) //  -1, 1, 2, -1, -4
+// console.log(TaskD(8, -1, 0, 0, 1, 2, -1, -4, 0)) //  -1, 1, 2, -1, -4
+
+//Task E
