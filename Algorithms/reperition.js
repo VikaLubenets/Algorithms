@@ -210,7 +210,6 @@ function deikstraSearch(graph, start, end){
 
 console.log(deikstraSearch(graph2, 'a', 'f'))
 
-
 //cache
 
 function cache(fn){
